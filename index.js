@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 var bodyParser = require('body-parser')
 
-app.get('/',(req,res)=>res.send('API Running'))
+app.get('/',(req,res)=>res.send('API Running '))
 
 //Init middleware
 app.use(bodyParser.urlencoded({ extended: true }));
