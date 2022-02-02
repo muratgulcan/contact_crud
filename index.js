@@ -11,6 +11,6 @@ app.use(bodyParser.json());
 //define routes
 app.use('/api/contact',require('./routes/api/contact'))
 
-const PORT = 5000
+const PORT = 4200
 
 app.listen(PORT,()=>{console.log(`Server started on port ${PORT} `)})
