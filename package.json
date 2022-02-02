@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node server",
-    "server": "nodemon index",
-    "start": "node index.js"
+    "start": "nodemon index",
   },
   "author": "Murat Gulcan",
   "license": "ISC",
